@@ -7,6 +7,21 @@ body {
   text-align: center;
 }
 
+.announcement-bar {
+  background-color: #def1e0;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.announcement-bar-message {
+  font-family: sans-serif;
+  padding: 0.8rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  font-size: small;
+  color: #917d81;
+}
+
 .header-container {
   position: relative; 
   display: flex;
