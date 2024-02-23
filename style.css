@@ -40,6 +40,17 @@ body {
   max-width: 150px;
 }
 
+.right-side-icons {
+  position: absolute;
+  right: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.right-side-icons img {
+  margin-left: 20px;
+}
+
 .header-text {
   text-align: center;
 }
@@ -61,4 +72,51 @@ body {
 
 .page-title {
   font-size: 30px;
+}
+
+.introduction-text {
+  font-family: sans-serif;
+  padding: 0.1rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+  color: #917d81;
+  text-align: center;
+}
+
+.header-navigation-menu {
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+  color: #c27873;
+  padding: 0.6rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-bar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.menu-bar li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #c27873;
 }
