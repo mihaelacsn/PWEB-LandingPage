@@ -1,0 +1,49 @@
+body {
+  background-color: #fffaf3;
+  letter-spacing: 0.06rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.header-container {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.page-title,
+.welcome-message {
+  font-family: "Akaya Telivigala";
+  padding: 0.6rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  color: #c27873;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.page-title {
+  font-size: 30px;
+}
