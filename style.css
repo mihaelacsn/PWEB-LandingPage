@@ -47,8 +47,22 @@ body {
   align-items: center;
 }
 
-.right-side-icons img {
-  margin-left: 20px;
+.right-side-icons li img {
+  transition: all 0.3s ease;
+  width: 25px;
+  height: 25px;
+}
+
+.right-side-icons li{
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.right-side-icons li:hover img{
+  width: 30px;
+  height: 30px;
 }
 
 .header-text {
