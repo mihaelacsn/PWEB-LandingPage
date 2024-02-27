@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"
       rel="stylesheet"
     />
-    <title>Penko Shop</title>
+    <title>Authentication</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="assets/logo.webp">
@@ -29,25 +29,18 @@
       />
       <div class="right-side-icons">
         <ul class="right-side-icon-list">
-        <li><a href="account.html">
-          <img src="assets/user-account-icon.png" alt="User account">
-          
-        </a></li>
-        <li>
-          <img src="assets/shopping-cart-icon.png" alt="Go to shopping cart"></li>
-      </ul>
+            <li><a href="account.html">
+              <img src="assets/user-account-icon.png" alt="User account">
+            </a></li>
+            <li>
+              <img src="assets/shopping-cart-icon.png" alt="Go to shopping cart"></li>
+          </ul>
       </div>
     </div>
       <div class="header-text">
         <p class="welcome-message main-text-font">Welcome to,</p>
         <p class="page-title main-text-font">Penko Peach Shop!</p>
       </div>
-    </div>
-    <div class="introduction-text">
-      <p>
-        I am here to crochet and sew little friends to bring you confort and
-        joy. Hope you can feel all the love I put in every item.
-      </p>
     </div>
     <nav class="header-navigation-menu">
       <ul class="menu-bar">
@@ -56,5 +49,19 @@
         <li>Contacts</li>
       </ul>
     </nav>
+    <div  class="user-login-section">
+      <h1 class="login-text main-text-font">
+        Login
+      </h1>
+      <form>
+        <div class="field">
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <div class="link-align">
+            <a href="passwordReset.html" class="password-reset">Forgot password?</a>
+          </div>
+          <button class="submit-button" type="submit">Login</button>
+      </form>
+    </div>
   </body>
 </html>
