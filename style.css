@@ -1,6 +1,10 @@
 body {
-  background-color: #fffaf3;
+  background-color: #f7ebdb;
   letter-spacing: 0.06rem;
+}
+
+li a{
+  text-decoration: none;
 }
 
 .main-text-font{
@@ -210,4 +214,62 @@ input[type=text], input[type=password] {
 
 .link-align{
   text-align: left;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.item {
+  margin: 40px;
+  text-align: center;
+}
+
+.item img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: left;
+  color: #c47e79;
+  position: relative;
+  left: 30px;
+}
+
+.caption .icon{
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.caption .icon img{
+  width: 20px;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.caption .icon:hover img {
+  transform: scale(1.2); 
+}
+
+.footer{
+  background-color: #def1e0;
+}
+
+.footer-content{
+  padding: 0.6rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  color: #c27873;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
