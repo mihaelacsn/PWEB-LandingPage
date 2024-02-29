@@ -14,7 +14,8 @@ Up the page there is an annoucement bar, and at the bottom - a footer with conta
 Some screenshots:
 <br>
 The Home Page:
-![Screenshot 2024-02-29 175501](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/16006a08-1e69-4ea1-9b81-c37b5e6611b0)
+<br>
+https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/16006a08-1e69-4ea1-9b81-c37b5e6611b0
 <br>
 The Login page:
 ![Screenshot 2024-02-29 200601](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/4f1bed5f-e541-491f-955d-815fdab2a3ea)
