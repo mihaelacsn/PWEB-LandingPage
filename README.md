@@ -15,13 +15,15 @@ Some screenshots:
 <br>
 The Home Page:
 <br>
-https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/16006a08-1e69-4ea1-9b81-c37b5e6611b0
+![Screenshot 2024-02-29 175501](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/0c98d9e1-fd0f-4036-a81e-437912090b63)
 <br>
 The Login page:
-![Screenshot 2024-02-29 200601](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/4f1bed5f-e541-491f-955d-815fdab2a3ea)
+<br>
+![Screenshot 2024-02-29 200601](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/ebca8065-43bb-4749-abf9-96ff2c910484)
 <br>
 The Register page:
-![Screenshot 2024-02-29 200658](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/836e09c6-d210-4680-ab88-475993db1128)
+<br>
+![Screenshot 2024-02-29 200658](https://github.com/mihaelacsn/PWEB-LandingPage/assets/74179246/357c0d08-f85f-4497-9090-781616440fa4)
 <br>
 The site link:
 <br>
