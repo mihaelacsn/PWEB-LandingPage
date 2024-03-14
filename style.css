@@ -38,7 +38,7 @@ li a{
   padding-bottom: 15px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
   .header-container{
     position: relative; 
     display: flex;
@@ -58,7 +58,7 @@ li a{
   max-width: 150px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
   .logo {
     max-width: 100px;
   }
@@ -71,7 +71,7 @@ li a{
   align-items: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .right-side-icons {
     right: 10px;
   }
@@ -136,7 +136,7 @@ li a{
   font-weight: bold;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .menu-bar {
     display: none;
   }
@@ -277,7 +277,7 @@ input[type=text], input[type=password] {
   text-align: left;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .product-list {
     justify-content: space-around; 
   }
@@ -324,7 +324,7 @@ input[type=text], input[type=password] {
   transition: transform 0.3s ease; 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .caption .icon img{
     width: 15px;
     height: auto;
@@ -337,7 +337,7 @@ input[type=text], input[type=password] {
   transform: scale(1.2); 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .footer {
     padding: 15px 0; 
   }
