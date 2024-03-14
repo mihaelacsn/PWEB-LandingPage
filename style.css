@@ -38,6 +38,17 @@ li a{
   padding-bottom: 15px;
 }
 
+@media only screen and (max-width: 480px){
+  .header-container{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -47,6 +58,12 @@ li a{
   max-width: 150px;
 }
 
+@media only screen and (max-width: 480px){
+  .logo {
+    max-width: 100px;
+  }
+}
+
 .right-side-icons {
   position: absolute;
   right: 70px;
@@ -54,6 +71,11 @@ li a{
   align-items: center;
 }
 
+@media only screen and (max-width: 480px) {
+  .right-side-icons {
+    right: 20px;
+  }
+}
 .right-side-icons li img {
   transition: all 0.3s ease;
   width: 25px;
@@ -114,11 +136,29 @@ li a{
   font-weight: bold;
 }
 
-.menu-bar {
+@media only screen and (max-width: 480px) {
+  .menu-bar {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .menu-toggle label {
+    cursor: pointer;
+  }
+  .menu-toggle input {
+    display: none;
+  }
+  .menu-toggle input:checked ~ .menu-bar {
+    display: block;
+  }
+}
+
+/* .menu-bar {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
+} */
 
 .menu-bar li {
   display: inline-block;
@@ -181,7 +221,7 @@ li a{
 
 input[type=text], input[type=password] {
   font-family: sans-serif;
-  width: calc(100% - 40px);
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -241,6 +281,12 @@ input[type=text], input[type=password] {
   text-align: left;
 }
 
+@media only screen and (max-width: 480px) {
+  .product-list {
+    justify-content: space-around; 
+  }
+}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -285,8 +331,16 @@ input[type=text], input[type=password] {
   transform: scale(1.2); 
 }
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding: 15px 0; 
+  }
+}
+
 .footer{
   background-color: #def1e0;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content{
