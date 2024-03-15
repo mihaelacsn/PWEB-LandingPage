@@ -378,7 +378,6 @@ input[type=text], input[type=password] {
   font-size: 18px;
 }
 
-.mascot
 
 .mascot-container{
   position: relative;
@@ -433,11 +432,15 @@ input[type=text], input[type=password] {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .mascot {
-    width: 40px;
-    height: 40px;
-    bottom: 5px;
-    left: 5px;
+@media screen and (max-width: 768px) {
+  .mascot-message {
+    left: 10px; 
+    bottom: 90px; 
+  }
+
+  #mascot {
+    width: 60px; 
+    height: 60px; 
+    bottom: 20px;
   }
 }
