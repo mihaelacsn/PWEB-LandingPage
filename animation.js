@@ -1,10 +1,9 @@
-window.onload = function() {
-    setTimeout(function() {
-      var mascot = document.getElementById('mascot');
-      if (mascot) {
-        mascot.style.display = 'block';
-      }
-    }, 5000); 
-  };
-
+function showMascot() {
+  var mascot = document.getElementById('mascot');
+  if(mascot){
+      mascot.style.display = 'inline-block';
+  }
   
+}
+
+setTimeout(showMascot, 3000);
